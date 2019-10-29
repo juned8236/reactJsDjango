@@ -1,0 +1,12 @@
+./backend/node_modules
+/.vscode
+*.pyc
+*.sqlite3
+./backend/package-lock.json
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+*./backend/frontendapp/src
+
