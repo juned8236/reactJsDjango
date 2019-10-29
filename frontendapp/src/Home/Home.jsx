@@ -16,13 +16,13 @@ function template() {
           <Content style={{ padding: '0 50px' }}>
                 < Title level={2}>Preface</Title>
                        <Paragraph>
-      The technology used to develop this website  are <Text strong>Django (Python Framework) for the backend, the Django-REST-Framework (DRF), React JS (for the frontend), Redux and Postgresql Database.</Text>
-      This project is set up for development and deployment by <Text strong>nginx, gunicorn and Docker. </Text> 
+      The technology used to develop this website  are <Text strong>Django (Python Framework) for the backend, React JS (for the frontend), Redux and Postgresql Database.</Text>
+      This project is set up for  deployment by <Text strong>nginx, gunicorn and Docker. </Text> 
                      </Paragraph>
                     <Paragraph>
                     During development, we can use WSGi server of 
-                    Django but for  the deployment we need Green Unicorn (Gunicorn) is a Python WSGI server that runs Python web application code. And to handle Static files of ReactJs 
-                    i used Nginx and for the deployment to AWS we have to dockerize it into a container. I had deployed in Heroku app so the need of Nginx  and docker but the docker code is available in  Github.
+                    Django but for  the deployment we need Gunicorn that is a Python WSGI server that runs Python web application code. To handle Static files of ReactJs 
+                    i used Nginx and for the deployment to cloud we have to dockerize it into a container. 
         </Paragraph>
   <Paragraph>
         You can  <Text strong>Download </Text> this project by  Github link provided below and just run the command <Text strong>docker-compose up </Text> in the folder directory which contains a docker-compose.yml file and make sure 
