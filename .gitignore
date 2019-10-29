@@ -10,3 +10,4 @@
 __pycache__/
 *./backend/frontendapp/src
 
+node_modules
