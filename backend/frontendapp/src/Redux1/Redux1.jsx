@@ -1,7 +1,7 @@
 import "./Redux1.css";
 import React from "react";
 import { Table } from 'antd';
-import { Typography,Layout} from 'antd';
+import { Button,Typography,Layout} from 'antd';
 
 
 
@@ -23,7 +23,8 @@ function template() {
 Example:-  The below data in table i had stored in Redux store in the json format. That is not a hard coded data or data fetching from the Database, you can assured this in my GitHub Code.
                      </Paragraph>
      
-      
+                     {/* <Button type="link">Link</Button> */}
+
       <Table dataSource={data}>
           <Column title="First Name" dataIndex="firstName" key="firstName" />
           <Column title="Last Name" dataIndex="lastName" key="lastName" />
